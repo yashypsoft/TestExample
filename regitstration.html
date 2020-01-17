@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h2>Registrarion</h2>
+        <div id="error"></div>
+        <div>
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <div>
+            <label for="confirmPassword">Confirm Password</label>
+            <input
+              type="password"
+              name="confirmPassword"
+              id="confirmPassword"
+            />
+          </div>
+          <div>
+            <label for="selectcity">Select City</label>
+            <select name="city" id="city">
+                <option value="selectcity">Select City</option>
+              <option value="ahmedabad">Ahmedabad</option>
+              <option value="gandhinagar">Gandhinagar</option>
+              <option value="mahesana">Mahesana</option>
+            </select>
+          </div>
+          <div>
+            <label for="state">Select State</label>
+            <select name="state" id="state">
+                <option value="selectstate">Select State</option>
+              <option value="gujarat">Gujarat</option>
+              <option value="maharatra">Maharastra</option>
+              <option value="punjab">Punjab</option>
+            </select>
+          </div>
+          <div>
+            <input type="checkbox" name="tnc" id="tnc" />
+            <p>Term & Conditions</p>
+          </div>
+          <input type="button" value="Register" id="registerbtn" />
+        </div>
+      </div>
+    </div>
+    <script src="regitstration.js"></script>
+
+  </body>
+</html>

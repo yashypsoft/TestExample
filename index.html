@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="error"></div>
+      <div id="login">
+        <form action="">
+          <div>
+            <label for="loginemail">Email</label>
+            <input type="email" name="loginemail" id="loginemail" />
+          </div>
+          <div>
+            <label for="loginpassword">Password</label>
+            <input type="password" name="loginpassword" id="loginpassword" />
+          </div>
+          <input type="button" value="Login" id="loginbtn"  onclick="loginUser()" />
+        </form>
+        <div id="blockregister">
+          <p>OR</p>
+          <input type="button" value="Register" id="registerbtn" />
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

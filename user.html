@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>User</title>
+</head>
+<body>
+    <h1>Dashboard</h1>
+    <div id="greeting">Hello</div>
+    <div>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="user.html">Users</a>
+        <a href="usersession.html">Login Session</a>
+        <a href="/">Logout</a>
+    </div>
+  <form action="">
+    <div>
+        <h2 id="taskuser">Add User</h2>
+        <div id="error"></div>
+        <input type="text" name="name" id="name" placeholder="Name">
+        <input type="email" name="email" id="email" placeholder="Email">
+        <input type="password" name="password" id="password" placeholder="Password">
+        <input type="date" name="birthdate" id="birthdate" placeholder="Birthdate">
+    </div>
+    <div id="actionChange">
+        <input type="submit" value="Add User" id="adduser" onclick="addUser()">
+    </div>
+  </form>
+ 
+    <div class="listuser">
+        <table border="1px" id="displaytbl">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Birthdate</th>
+                <th>Age</th>
+                <th>Actions</th>
+            </tr>
+
+        </table>
+    </div>
+
+  
+
+    <script src="user.js"></script>
+</body>
+</html>
