@@ -39,6 +39,6 @@ document.getElementById("registerbtn").addEventListener("click", function() {
   }else{
     var adminCreate =new AdminUser(name,email,password,city,state)
     localStorage.setItem("AdminUser",JSON.stringify(adminCreate));
-    location.href = "index.html";
+    location.href = "login.html";
   }
 });
